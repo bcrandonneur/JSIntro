@@ -6,6 +6,12 @@ function increaseCount() {
     checkCountValue(); // Check count value and display message
 }
 
+function resetCount() {
+    count = 0; // Reset count to 0
+    displayCount(); //Display the count
+    alert("Your follower count has been reset to 0."); // Display message
+}
+
 function displayCount() {
     document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
 }
